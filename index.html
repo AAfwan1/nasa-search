@@ -11,7 +11,7 @@
     :root, html, body {
       margin: 0;
       padding: 0;
-      background-color: black;
+      background-color: #121212;
       color: white;
       font-family: Arial, sans-serif;
     }
@@ -20,28 +20,33 @@
     }
     nasa-search {
       margin: 16px;
-      border: 2px solid red;
+      border: 2px solid #ff4500;
       border-radius: 10px;
       padding: 16px;
+      background-color: #1e1e1e;
     }
     nasa-search:hover {
-      box-shadow: 0 4px 8px rgba(255, 0, 0, 0.4);
+      box-shadow: 0 4px 12px rgba(255, 69, 0, 0.5);
     }
     h1 {
       text-align: center;
-      color: red;
+      color: #ff4500;
+      font-size: 48px;
       margin-top: 16px;
     }
     h2 {
-      color: red;
+      text-align: center;
+      color: #ff4500;
+      font-size: 32px;
+      margin-bottom: 16px;
     }
   </style>
-  <title>Browse the Nasa Base</title>
+  <title>The Nasa Base</title>
 </head>
 
 <body>
   <div id="demo">
-    <h1>Browse the Nasa Base</h1>
+    <h1>The Nasa Base</h1>
     <nasa-search></nasa-search>
   </div>
   <script type="module" src="./nasa-search.js"></script>
